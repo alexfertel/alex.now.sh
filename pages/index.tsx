@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Layout from "../src/components/Layout";
 
-const IndexPage = (): JSX.Element => (
+const IndexPage = (): React.ReactElement => (
   <Layout title="Home | Next.js + TypeScript Example">
     <h1>Hello Next.js 👋</h1>
     <p>
